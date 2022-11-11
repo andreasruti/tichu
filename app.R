@@ -14,7 +14,9 @@ library(tidyr)
 # Data
 ################################################################################
 
-dat_orig <- read_excel("data/tichu_results.xlsx")
+dat_orig <- read_excel("data/tichu_results.xlsx") %>% 
+    dplyr::filter(!is.na(season))
+    
 
 games_temp <- dat_orig %>% 
     select(season, spiel, team, game_key) %>% 
