@@ -1,0 +1,13 @@
+name: tichu
+title: tichu
+username:
+account: andy-rutishauser
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7602284
+bundleId: 6648428
+url: https://andy-rutishauser.shinyapps.io/tichu/
+when: 1671290305.44679
+lastSyncTime: 1671290305.44685
+asMultiple: FALSE
+asStatic: FALSE
